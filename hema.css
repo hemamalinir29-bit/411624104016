@@ -1,5 +1,5 @@
 body{
-    color:green;
+    color: skyblue;
     background-color:black;
 }
 p{
@@ -48,9 +48,12 @@ nav{
     gap: 50px;
 }
 @media(min-width){
+    nav{
     display: flex;
     flex-direction: row;
     gap: 50px;
+    }
+}  
 #p1{
     font-style: italic;
 }
